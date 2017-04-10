@@ -35,17 +35,21 @@ table {
 
 /* body */
 body {
+  background-color: #ffffff;
   max-width: 1440px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /* Section 1 */
 .section1 {
   background: url(../images/background.jpg) no-repeat;
   width: 100%;
-  background-size: 100%;
-  margin-top: 59px;
-  margin-bottom: 39px; }
+  background-size: 100%; }
 
 .tryNow {
   padding-top: 240px;
@@ -56,10 +60,10 @@ body {
   line-height: 50px; }
 
 .tryNow h1 {
-  font-size: 44px;
+  font-size: 2.4vw;
   color: #28282a;
   font-weight: 300;
-  margin-bottom: 59px; }
+  margin-bottom: 2vw; }
 
 .playButton {
   display: block;
@@ -100,5 +104,26 @@ body {
 
 p.tryNowClause {
   color: #8b8c91; }
+
+/* Section 2 */
+aside.newDesignSidePicture {
+  float: right; }
+
+.newDesignInformation {
+  float: left;
+  text-align: left; }
+
+.newDesignInformation h2 i,
+.newDesignInformation h3 {
+  color: #f2766a; }
+
+.newDesignInformation h2 {
+  color: #282828; }
+
+.newDesignInformation p {
+  color: #868686; }
+
+.newDesignSidePicture {
+  background: url(../images/beardedPerson.png) no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
